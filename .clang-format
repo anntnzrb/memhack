@@ -1,0 +1,19 @@
+---
+
+Language: Cpp
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 79
+UseTab: Never
+AlwaysBreakAfterReturnType: TopLevel
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeCpp11BracedList: true
+
+# alignment
+AlignConsecutiveDeclarations:
+  Enabled: true
+BreakBeforeBinaryOperators: NonAssignment
+BinPackArguments: false
+PointerAlignment: Left
+ReferenceAlignment: Left
+QualifierAlignment: Left

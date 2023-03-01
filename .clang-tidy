@@ -1,0 +1,14 @@
+---
+
+Checks: "*,
+        -llvm*,
+        -fuchsia*,
+        -altera*,
+        -cert-err58-cpp,
+        -readability-identifier-length,
+        -modernize-use-nodiscard,
+        -cppcoreguidelines-special-member-functions,
+        -hicpp-special-member-functions,
+"
+
+FormatStyle: file
